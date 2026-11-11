@@ -40,7 +40,6 @@ vector<string> SplitString(string S1, string Delim)
     return vString;
 }
 
-// دالة تحويل السطر المفصول إلى هيكل بيانات العميل (Problem #46)
 sClient ConvertLinetoRecord(string Line, string Seperator = "#//#")
 {
     sClient Client;
